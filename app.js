@@ -50,7 +50,7 @@ app.post("/",function(req,res){
             console.log(JSON.parse(data));
         })
     })
-
+//requests something to the server and ends connection
     requestt.write(jsonData);
     requestt.end();
 
